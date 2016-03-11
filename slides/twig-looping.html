@@ -3,7 +3,7 @@
 <pre><code class="twig">
   <ol>
     {% for author in authors %}
-      <li>{{ author.name }}</li>
+      <li><span>{{ loop.index }}.</span> {{ author.name }}</li>
     {% endfor %}
   </ol>
 
