@@ -1,0 +1,18 @@
+<h2>Filter Arrays</h2>
+
+<pre><code class="twig">
+  {# Working with render arrays #}
+  
+  {# Print all the page content except for the title and tabs. #}
+  {{ page.content|without('pagetitle','tabs') }}
+  
+  {# FINE! Print the page title. #}
+  {{ page.content.pagetitle) }}
+
+  {# Working with other arrays #}
+  {% set numbers = [1, 2, 3] %}}
+
+  {{ numbers|join }}            {# '123' #}  
+  {{ numbers|join('|') }}       {# '1|2|3' #}
+
+</code></pre>

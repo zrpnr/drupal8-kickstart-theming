@@ -1,0 +1,11 @@
+<h2>Attributes Object</h2>
+
+<h4>Remove Class</h4>
+<pre><code class="twig">
+{% set classes = [ 'red', 'green', 'blue' ] %}
+
+&lt;div {{ attributes.addClass(classes).removeClass('green') }}>&lt;/div>
+
+{# <div class='red blue'></div> #}
+
+</code></pre>

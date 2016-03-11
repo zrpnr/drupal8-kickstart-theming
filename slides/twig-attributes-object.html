@@ -1,0 +1,17 @@
+<h2>Attributes Object</h2>
+
+<h4>Single Class</h4>
+<pre><code class="twig">
+ &lt;div {{attributes.addClass('my-class') }}>&lt;/div> 
+ 
+ {# <div class='my-class'></div> #}
+
+</code></pre>
+
+<h4>Multiple Classes</h4>
+<pre><code class="twig"> 
+ &lt;div {{attributes.addClass(['red', 'green']) }}>&lt;/div>
+ 
+ {# <div class='red green'></div> #}
+
+</code></pre>

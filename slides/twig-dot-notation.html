@@ -1,0 +1,15 @@
+<h2>Dot notation</h2>
+
+<pre><code class="twig">
+  {# Print the value of the field without the field markup #}
+
+  {{ node.field_name.value }}
+
+</code></pre>
+
+<pre class="fragment"><code class="twig">
+  {# Do it again, but like you don't care #}
+
+  {{ node.field_name.value|raw }}
+
+</code></pre>

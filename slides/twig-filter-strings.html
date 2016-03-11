@@ -1,0 +1,19 @@
+<h2>Filter Strings</h2>
+
+<pre><code class="twig">
+  {% set greeting = 'Hello Joe' %}
+
+  {{ greeting }}               {# 'Hello Joe' #}  
+  {{ greeting|t }}             {# 'Hola José' #}
+  {{ greeting|upper }}         {# 'HELLO JOE' #}
+  {{ greeting|t|upper }}       {# 'HOLA JOSÉ' #}
+  {{ greeting|clean_class }}   {# 'hello-joe' #}
+
+  {% filter upper %}
+    Filter a whole bunch o text at once.
+  {% endfilter %}
+  
+  {# 'FILTER A WHOLE BUNCH...' #}
+
+
+</code></pre>

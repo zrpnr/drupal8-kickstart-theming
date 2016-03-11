@@ -1,0 +1,16 @@
+<h2>Logic</h2>
+
+<pre><code class="twig">
+  {% if label %}
+    <h4 class="field__label">{{ label }}</h4>
+  {% endif %}
+
+  {% if temperature > 50 and temperature < 90 %}
+    <p>It's a nice day for a walk in the park.</p>
+  {% elseif temperature > 95 %}
+    <p>It's a nice day for a swim.</p>
+  {% else %}
+    <p>Take a nap. You deserve it.</p>
+  {% endif %}
+
+</code></pre>

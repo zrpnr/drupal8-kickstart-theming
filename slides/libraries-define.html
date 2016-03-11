@@ -1,0 +1,16 @@
+<h2>Defining Libraries</h2>
+
+<p><ins><code>mytheme.libraries.yml</code><ins></p>
+<p><del><code>hook_library_info()</code></del></p>
+<pre><code class="yaml">
+  chosen:
+    version: 1.x
+    css:
+      theme:
+        css/chosen.css: { preprocess: false }
+    js:
+      js/chosen.js: {}
+    dependencies:
+      - core/jquery
+
+</code></pre>
