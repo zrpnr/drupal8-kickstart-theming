@@ -1,0 +1,23 @@
+<del><code>template.php</code></del> 
+<div>
+  <code>mytheme.theme</code>
+</div>
+
+<pre><code class="php"> /**
+  * Implements hook_theme_suggestions_HOOK_alter().
+  */
+ function mytheme_theme_suggestions_field_alter(array &$suggestions, array $variables) {
+   $element = $variables['element']['#field_name'];
+
+   switch ($element) {
+     case 'field_books':
+     case 'field_movies':
+       $suggestions[] = 'field__ul';
+       break;
+     case 'field_top_ten' :
+       $suggestions[] = 'field__ol';
+       break;
+   }
+ }
+
+</code></pre>

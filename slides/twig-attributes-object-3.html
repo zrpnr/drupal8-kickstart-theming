@@ -1,0 +1,15 @@
+<h2>Attributes Object</h2>
+
+<h4>Set Attribute</h4>
+<pre><code class="twig">
+ &lt;div {{ attributes.setAttribute('aria-expanded', 'true') }}>&lt;/div> 
+ 
+ {# <div aria-expanded='true'></div> #}
+
+</code></pre>
+
+<h4>Remove Attribute</h4>
+<pre><code class="twig"> 
+ &lt;div {{ attributes.removeAttribute('id') }}>&lt;/div>
+
+</code></pre>

@@ -1,0 +1,14 @@
+<h2>Includes</h2>
+
+<h4>Namespaced Templates</h4>
+<pre><code class="twig">
+  {# Has access to current context #}
+  {% include '@mytheme/page/inc/header.html.twig' %}
+  
+  {% for box in boxes %}
+    {# Has access to current context + box #}
+    {% include "@mymodule/box.html.twig" %}
+  {% endfor %}
+
+</code></pre>
+
