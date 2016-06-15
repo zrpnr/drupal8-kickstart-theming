@@ -1,5 +1,25 @@
 [
-    "index.md",
+    {
+        "filename": "index.md",
+        "attr": {
+            "data-background": "resources/img/modjs_Diaganol-Single.svg"
+        }
+    },
+
+    {
+        "filename": "01-Intro/john-ferris.html",
+        "attr": {
+            "data-background": "resources/img/modjs_Diaganol-Single.svg"
+        }
+    },
+    {
+        "filename": "01-Intro/aten.html"
+    },
+    {
+        "filename": "01-Intro/aten-clients.md",
+        "attr": {
+        }
+    },
     "what-s-new.html",
     "markup-changes.html",
     "responsive-images.html",
@@ -43,6 +63,5 @@
     "libraries-attach-4.html",
     "libraries-override.html",
     "libraries-extend.html",
-    "did-i-miss-anything.html",
     "thank-you.html"
 ]
