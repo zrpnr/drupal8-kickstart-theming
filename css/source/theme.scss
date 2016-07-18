@@ -18,7 +18,8 @@
 
 // Include theme-specific fonts
 // @import url(../bower_components/reveal.js/lib/font/source-sans-pro/source-sans-pro.css);
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,300italic,400italic,900,900italic,700italic,700,600italic,600);
+//@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,300italic,400italic,900,900italic,700italic,700,600italic,600);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,400italic,300,300italic,700,700italic,900,900italic);
 
 // Override theme settings (see ../template/settings.scss)
 $backgroundColor: #fff;
@@ -28,8 +29,8 @@ $headingColor: #383438;
 $accentColor: #ce0000;
 
 $mainFontSize: 38px;
-$mainFont: 'Source Sans Pro', Helvetica, sans-serif;
-$headingFont: 'Source Sans Pro', Helvetica, sans-serif;
+$mainFont: 'Roboto', Helvetica, sans-serif;
+$headingFont: 'Roboto', Helvetica, sans-serif;
 $headingTextShadow: none;
 $headingLetterSpacing: normal;
 $headingTextTransform: uppercase;
@@ -58,6 +59,9 @@ section.has-dark-background {
 // Overrrides
 // 
 .reveal {
+h1 {
+  text-align: left;
+}
 
 h1 > .subtitle {
   color: $linkColor;
