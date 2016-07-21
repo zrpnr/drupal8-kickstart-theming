@@ -7,3 +7,18 @@
 
 </code></pre>
 :)
+
+
+<pre class="fragment"><code class="php">
+/**
+ * Include a local settings file if it exists.
+ */
+$local_settings = dirname(__FILE__) . '/settings.local.php';
+if (file_exists($local_settings)) {
+  include $local_settings;
+}
+</code></pre>
+<aside class="notes">
+  You can add an override in your sites settings file to not cache twig files, this is a big performance hit but may speed up development if you're making a lot of template changes and don't want to clear the whole cache between page refreshes.
+  As a side note, having a settings.local.php file is a good practice, you can put your local development settings in this file, and add it to your .gitignore so that it won't ever be part of the production site. Obviously you wouldn't want the cache disabled or have any of your other local settings to ever be deployed.
+</aside>

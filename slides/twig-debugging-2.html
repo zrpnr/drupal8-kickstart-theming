@@ -7,8 +7,12 @@
 </code></pre>
 <pre><code class="twig"> 
  {% kint() %}
+ {% kint(_context|keys) %}
  {% kint(var) %}
- {% kint(content|keys) %}
 
 </code></pre>
 
+<aside class="notes">
+  The devel module is still around for D8, and includes its own version of twig's dump method.
+  Kint works exactly the same, but instead of printing the raw text to the page you get a formatted list.
+</aside>

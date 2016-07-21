@@ -3,7 +3,11 @@
 <h4>Dump()</h4>
 <pre><code class="twig">
  {% dump() %}
+ {% dump(_context|keys) %}
  {% dump(var) %}
- {% dump(content|keys) %}
 
 </code></pre>
+<aside class="notes">
+  Twig has built in debugging features, you can dump the entire context of a page, or use the _context global to print just one part of the page, such as the keys. You want to be careful about a WSOD as this is a recursive operation and your system may run out of memory trying to print every variable and all its children and their children.
+  To dump a single variable, just pass it as an argument.
+</aside>

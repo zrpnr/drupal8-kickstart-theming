@@ -1,0 +1,16 @@
+<h2>Translating Strings</h2>
+<h3>Drupal 7</h3>
+<pre><code class="php">
+  &lt;? print t('Hello @name', array('@name' => $name); ?>
+</code></pre>
+<h3>Drupal 8</h3>
+<pre><code class="twig">
+  Hello {{ name|t }}
+</code></pre>
+<pre class="fragment"><code class="twig">
+  {% trans %} Hello {{ name }} {% endtrans %}
+</code></pre>
+<aside class="notes">
+  In Drupal 7 if you wanted to translate a string that included variables you needed to pass the values as an array using placeholder tokens.
+  In Twig, you can just use the t filter, but in this case it's better to use a translation block, so that the entire string can be translated but variables will be escaped and printed correctly.
+</aside>

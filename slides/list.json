@@ -36,13 +36,15 @@
     "core-base-themes.html",
     "c-bem-syntax.html",
     "coding-standards.html",
-    
+    "better-dx2.html",
     "mytheme-info-yml.html",
     "twig.html",
+    "twig2.html",
     "twig-syntax.html",
     "twig-dot-notation.html",
     "twig-filter-strings.html",
     "twig-filter-arrays.html",
+    "twig-filter-trans.html",
     "twig-looping.html",
     "twig-logic.html",
     "twig-attributes-object.html",
@@ -67,5 +69,6 @@
     "libraries-attach-4.html",
     "libraries-override.html",
     "libraries-extend.html",
+    "better-dx-conclusion.html",
     "thank-you.html"
 ]
