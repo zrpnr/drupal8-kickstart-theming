@@ -3,7 +3,7 @@
  *
  * Copyright (C) 2015 Hakim El Hattab, http://hakim.se
  */
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,300italic,400italic,900,900italic,700italic,700,600italic,600);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,400italic,300,300italic,700,700italic,900,900italic);
 section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {
   color: #fff; }
 
@@ -16,13 +16,13 @@ body {
 
 .reveal {
   font-family: "Roboto", Helvetica, sans-serif;
-  font-size: 34px;
+  font-size: 38px;
   font-weight: normal;
-  color: #645E64; }
+  color: #2f2c2f; }
 
 ::selection {
   color: #fff;
-  background: #FDC400;
+  background: white;
   text-shadow: none; }
 
 .reveal .slides > section,
@@ -41,7 +41,7 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #383438;
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: "Roboto", Helvetica, sans-serif;
   font-weight: 900;
   line-height: 1.2;
   letter-spacing: normal;
@@ -50,9 +50,7 @@ body {
   word-wrap: break-word; }
 
 .reveal h1 {
-  font-size: 2.5em;
-  text-transform: none;
-}
+  font-size: 2.5em; }
 
 .reveal h2 {
   font-size: 1.6em; }
@@ -61,9 +59,7 @@ body {
   font-size: 1.3em; }
 
 .reveal h4 {
-  font-size: 1em;
-  text-transform: none;
-}
+  font-size: 1em; }
 
 .reveal h1 {
   text-shadow: none; }
@@ -305,114 +301,3 @@ body {
 .reveal section img {
   border: 0;
   box-shadow: none; }
-
-.reveal .aten__logo {
-  width: 250px;
-  height: 375px;
-  margin-bottom: 3em; }
-
-.reveal .aten__logo--horizontal {
-  width: 250px;
-  height: 100px;
-  margin-bottom: 3em; }
-
-.reveal .aten__contact a {
-  color: #645E64; }
-  .reveal .aten__contact a:hover {
-    color: #323133; }
-
-.reveal .aten__contact span {
-  opacity: .4;
-  margin-left: .25em;
-  margin-right: .25em; }
-
-.reveal .speaker__logo {
-  margin-bottom: 3em; }
-
-.reveal .speaker__name {
-  font-size: 2.85em;
-  line-height: 1; }
-
-.reveal .speaker__title {
-  text-transform: uppercase;
-  font-size: .875em; }
-
-.reveal .speaker__twitter {
-  font-size: .75em; }
-
-.reveal .number-stat {
-  margin-top: 1em; }
-
-.reveal section img {
-  background-color: transparent; }
-
-.reveal .logo {
-  width: 110px;
-  margin-top: 60px; }
-
-.reveal .image--full {
-  transform: scale(1.2); }
-
-.reveal p:first-child,
-.reveal img:first-child {
-  margin-top: 0; }
-
-.reveal section img {
-  border: 0;
-  box-shadow: none; }
-
-.reveal .box--ruled {
-  position: relative;
-  height: 590.4px; }
-  .reveal .box--ruled:after {
-    content: "";
-    display: block;
-    height: .25em;
-    width: 8em;
-    background-color: #F7AA0A;
-    position: absolute;
-    bottom: 0;
-    left: 0; }
-
-.reveal .box--full {
-  height: 590.4px; }
-
-.reveal .heading--ruled {
-  position: relative;
-  padding-bottom: .5em;
-  margin-bottom: 1.5em; }
-  .reveal .heading--ruled:after {
-    content: "";
-    display: block;
-    height: .25em;
-    width: 2em;
-    background-color: #F7AA0A;
-    position: absolute;
-    bottom: 0;
-    left: 0; }
-  .reveal .heading--ruled > small {
-    font-weight: 300; }
-
-.reveal .heading--bigass {
-  line-height: .8em;
-  font-size: 6.5em; }
-  .reveal .heading--bigass > small {
-    display: block;
-    font-size: .4em; }
-
-.reveal h3.heading--figure {
-  margin-bottom: 1em;
-  text-align: center;
-  margin-top: 0; }
-
-.reveal .filename {
-  color: #645E64;
-  font-size: .75em;
-  letter-spacing: .03em; }
-
-.reveal .center {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  display: block; }
-
