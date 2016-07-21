@@ -5,5 +5,26 @@
   <li>Includes <strong>picturefill</strong> polyfill</li>
   <li>Includes <strong>Breakpoint</strong> module</li>
 </ul>
+<pre class="fragment">
+  <code class="html">
+<picture>
+  <source 
+    media="(min-width: 600px)"
+    srcset="img-large.png">
+  <source 
+    media="(min-width: 320px)"
+    srcset="img-small.png">
+  <img 
+    src="img-default.png" 
+    alt="the image">
+</picture>
+  </code>
+</pre>
 
+<aside class="notes">
+  Responsive images doesn't just mean scaling to fit your screen. If you view a page on a small screen it doesn't make sense to download the same size image that would look good on a wide studio display. 
 
+  The picture element is supported in most browsers, but D8 includes the picturefill polyfill for browsers that don't. *cough IE
+
+  The breakpoint modules lets you define widths to choose different image styles, which prints out the picture with the srcsets and fallback filled in.
+</aside>

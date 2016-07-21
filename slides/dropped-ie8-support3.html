@@ -1,0 +1,15 @@
+<h2>Dropped IE8 Support</h2>
+<div class="fragment">
+  <h3>Exceptions</h3>
+  <ul>
+    <li>html5shiv</li>
+    <li class="fragment">responsive images</li>
+  </ul>
+</div>
+<aside class="notes">
+html5shiv was added to core to support browsers that didn't recognize html5 tags, like IE8. There's been considerable debate about whether to leave it in, it's been removed from core themes but still exists in Drupal core as an option so if your theme needs to support older browsers it is still possible. It likely won't be removed now until Drupal 9 comes out.
+
+Responsive images are a new feature in D8, they includes fallback support for IE 8, 
+You'll need to configure the fallback in your display to use your desktop image size if you don't want mobile size images to display by default.
+
+</aside>

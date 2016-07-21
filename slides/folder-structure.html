@@ -1,4 +1,4 @@
-<h2>Folder Structure</h2>
+<h2>Folder Structure (Custom)</h2>
 
 <pre><code class="bash">
   ┣ core/
@@ -16,3 +16,9 @@
         ┗ mytheme.theme
 
 </code></pre>
+
+<aside class="notes">
+  Drupal has traditionally had a folder structure which is confusing to new developers, there was an obvious "themes" folder that seemed like a good place to place your custom themes- but it was part of core. You had to put everything in sites/all/themes, 
+  D8 now keeps all the core files in a "core" folder- meaning that when it's time to update core itself the process is much tidier, and it's less tempting to mix your custom code into core. 
+  Outside the core directory are modules and themes folders. It's a good practice to add a couple additional folders, contrib and custom
+</aside>
