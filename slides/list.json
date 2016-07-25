@@ -7,7 +7,7 @@
     },
 
     {
-        "filename": "01-Intro/john-ferris.html",
+        "filename": "01-Intro/peter-weber.html",
         "attr": {
             "data-background": "resources/img/modjs_Diaganol-Single.svg"
         }
@@ -21,24 +21,30 @@
         }
     },
     "what-s-new.html",
-    "markup-changes.html",
-    "responsive-images.html",
+    "better-dx.html",
     "dropped-ie8-support.html",
-    "coding-standards.html",
-    "c-bem-syntax.html",
-    "c-bem-syntax-2.html",
-    "c-bem-syntax-3.html",
+    "dropped-ie8-support2.html",
+    "dropped-ie8-support3.html",
+    "responsive-images.html",
+    "better-dx2.html",
+    "folder-structure.html",
+    "folder-structure2.html",
+    "core-changes.html",
+    "core-themes-overview.html",
     "core-themes-bartik.html",
     "core-themes-seven.html",
     "core-base-themes.html",
-    "better-dx.html",
-    "folder-structure.html",
+    "c-bem-syntax.html",
+    "coding-standards.html",
+    "better-dx2.html",
     "mytheme-info-yml.html",
     "twig.html",
+    "twig2.html",
     "twig-syntax.html",
     "twig-dot-notation.html",
     "twig-filter-strings.html",
     "twig-filter-arrays.html",
+    "twig-filter-trans.html",
     "twig-looping.html",
     "twig-logic.html",
     "twig-attributes-object.html",
@@ -63,5 +69,6 @@
     "libraries-attach-4.html",
     "libraries-override.html",
     "libraries-extend.html",
+    "better-dx-conclusion.html",
     "thank-you.html"
 ]

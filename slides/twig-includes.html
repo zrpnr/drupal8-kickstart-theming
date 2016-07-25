@@ -12,3 +12,10 @@
 
 </code></pre>
 
+<aside class="notes">
+  Including other templates is very straightforward in twig, and allows for cleaner leaner templates with less repeated elements. A partial template lets you pass variables into it, such as printing out a component in a loop. The box template in this example only deals with a few variables so it can be reused and is independent of the template that is including it.
+
+  This means that for example you could have a template that prints "title" and "content", but doesn't care whether you're passing it a node or a block or another entity. in your loop if you pass a "node" object then your template prints node title, if you passed a block it would print the block title -but the html in the template is exactly the same letting you write a simple component, and avoiding the need to copy the exact same markup for a different use.
+
+  Notice the namespacing- the @theme name is shorthand for pointing to your theme or module's folder instead of having to list out the full path.
+</aside>

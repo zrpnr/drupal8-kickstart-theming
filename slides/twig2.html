@@ -1,0 +1,22 @@
+<h1>Twig vs phptemplate</h1>
+<pre>
+  <code class="php hljs">
+  &lt;?php print $node->nid; ?> // object
+  &lt;?php print $attributes; ?> // string
+  &lt;?php print render($content); ?> // array
+  </code>
+</pre>
+<div class="fragment">
+  <pre>
+  <code class="php hljs">
+  &lt;?php db_query("DROP TABLE {node}"); ?>
+  </code>
+  </pre>
+</div>
+<aside class="notes">
+  Twig makes the Drupal theme layer faster and more secure. It's impossible to run PHP scripts, make database calls or access the file system.
+
+  It's not likely a dev would ever write something lke this- but they *could* and it is very common to see a lot of php code written directly in templates, as there's nothing to prevent a developer from putting their logic wherever they wanted.
+
+  All of the PHPTemplate files (*.tpl.php) were converted to Twig template files (*.html.twig).
+</aside>

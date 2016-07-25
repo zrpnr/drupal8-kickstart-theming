@@ -26,7 +26,7 @@
 }
 
 .hljs-keyword,
-.hljs-tag,
+.hljs-selector-tag,
 .hljs-type {
   color: #a71d5d;
 }
@@ -49,10 +49,10 @@
 
 .hljs-title,
 .hljs-attr,
-.hljs-id,
-.hljs-class,
-.hljs-attr,
-.hljs-pseudo {
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-selector-attr,
+.hljs-selector-pseudo {
   color: #795da3;
 }
 
