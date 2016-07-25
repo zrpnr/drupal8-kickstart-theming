@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:pixelwhip/drupal8-kickstart-theming.git"
+    "url": "git@github.com:zrpnr/drupal8-kickstart-theming.git"
 
   },
   "scripts": {
